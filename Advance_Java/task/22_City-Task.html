@@ -1,0 +1,35 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // Sample list of city names
+      const cityNames = [
+        "New York",
+        "Los Angeles",
+        "Chicago",
+        "Houston",
+        "Miami",
+        "Seattle",
+      ];
+
+      // User input
+      const userInput = prompt("Miami ");
+
+      // Filter city names with more characters than user input
+      const filteredCities = cityNames.filter(
+        (city) => city.length > userInput.length
+      );
+
+      // Display the filtered city names
+      console.log("City names with more characters than input:");
+      console.log(filteredCities);
+    </script>
+  </body>
+</html>

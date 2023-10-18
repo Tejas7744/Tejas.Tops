@@ -1,0 +1,7 @@
+[
+    {
+        "name":"Tejas",
+        "age":25,
+        "array":["test",{ "name":"data" }]
+    }
+]
