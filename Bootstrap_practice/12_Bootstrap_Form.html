@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.min.css">
+    <style>
+        .regform {
+            border: 2px solid black;
+            width: 800px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container regform regform p-4">
+      <h3 class="pb-4">New User Registration</h3>
+       <div class="row d-flex align-items-center py-1" >
+            <div class="col-2">
+                <label for="" class="form-label">First Name:</label>
+            </div>
+            <div class="col-10">
+                <input type="text" class="form-control" placeholder="Enter First Name">
+            </div>
+       </div>
+       <!-- Last Name -->
+       <div class="row d-flex align-items-center py-1">
+            <div class="col-2">
+                <label for="" class="form-label">Last Name:</label>
+            </div>
+            <div class="col-10">
+                <input type="text" class="form-control" placeholder="Last Name">
+            </div>
+       </div>
+       <!-- Date Of Birth -->
+        <div class="row d-flex align-items-center py-1">
+            <div class="col-2">
+                <label for="" class="form-label">Date Of Birth:</label>
+            </div>
+            <div class="col-10">
+                <input type="date" class="form-control">
+            </div>
+        </div>
+        <!-- Radio Button -->
+        <div class="row d-flex align-items-center py-1">
+            <div class="col-2">
+                <label for="" class="form-label">Gender:</label>
+            </div>
+            <div class="col-10">
+                <div class="form-check-inline">
+                    <input type="radio" name="radio1" class="form-check-input">
+                    <label for="" class="form-check-label">Male</label>
+                </div>
+                <div class="form-check-inline">
+                    <input type="radio" name="radio1" class="form-check-input">
+                    <label for="" class="form-check-label">Female</label>
+                </div>
+            </div>
+        </div>
+        <!-- Address -->
+        <div class="row d-flex align-items-center py-1">
+            <div class="col-2">
+                <label for="" class="form-label">Address:</label>
+            </div>
+            <div class="col-10">
+                <textarea name="" id="" cols="30" rows="02" class="form-control"></textarea>
+            </div>
+        </div>
+        <!-- Select Option -->
+        <!-- multiple size -->
+        <div class="row d-flex align-items-center py-1">
+            <div class="col-2">
+                <label for="" class="form-label">City:</label>
+            </div>
+            <div class="col-10">
+                <select name="" id="" class="form-select" multiple size="2">
+                    <option value="">----Select----</option>
+                    <option value="">Surat</option>
+                    <option value="">Baroda</option>
+                    <option value="">Gandhinagar</option>
+                </select>
+            </div>
+        </div>
+        <!-- Email -->
+        <div class="row d-flex align-items-center py-1">
+            <div class="col-2">
+                <label for="" class="form-label">Email:</label>
+            </div>
+            <div class="col-10">
+                 <div class="input-group">
+                    <input type="mail" class="form-control">
+                    <label for="" class="input-group-text">.com</label>
+                 </div>   
+            </div>
+        </div>
+        <!-- Password -->
+        <div class="row d-flex align-items-center py-1">
+            <div class="col-2">
+                <label for="" class="form-label">Password:</label>
+            </div>
+            <div class="col-10">
+                <input type="password" class="form-control">
+            </div>
+        </div>
+        <!-- Color Pallate -->
+        <div class="row d-flex align-items-center py-1">
+            <div class="col-2">
+                <label for="" class="form-label">Color:</label>
+            </div>
+            <div class="col-10">
+                <input type="color" class="form-control-color">
+            </div>
+        </div>
+        <!-- Button -->
+        <div class="row py-1">
+            <div class="col-12 text-center pt-2">
+                <button class="btn btn-outline-success">Login</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
