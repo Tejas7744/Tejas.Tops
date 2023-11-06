@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    gap: 20px;
+    place-content: center;
+    flex-direction: row;
+}
+
+.subcontainer {
+    color: white;
+    background-color: orange;
+    padding: 190px;
+    border-radius: 0px 50%;
+}
+
+.subcontainer1 {
+    color: black;
+    background-color: rgb(5, 162, 253);
+    padding: 190px;
+    border-radius: 0px 50%;
+}
+
+.subcontainer2 {
+    color: white;
+    background-color: green;
+    padding: 190px;
+    border-radius: 0px 50%;
+}
+
+.footer {
+    color: black;
+    background-color: aqua;
+    text-align: center;
+    padding: 7px;
+    margin-top: 15px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.Homepage {
+    text-align: center;
+}
